@@ -1,0 +1,881 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\EsateApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\emlakcimain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\emlakcimain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\emlakcimain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\emlakcimain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\usermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\usermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\emlakdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\emlakdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\emlakdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\emlakdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\usermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\usermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\createnewemlak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\createnewemlak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\createnewemlak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\createnewemlak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EstateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EstateApplication.csproj|solutionrelative:esateapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositories\\estateagentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositories\\estateagentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\emlakcimain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\emlakcimain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\propertymodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\propertymodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\servicecontracts\\iestateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\servicecontracts\\iestateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\services\\estateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\services\\estateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositories\\estaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositories\\estaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositorycontracts\\iestaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositorycontracts\\iestaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositorycontracts\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositorycontracts\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EstateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EstateApplication.csproj|solutionrelative:esateapplication\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\servicecontracts\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\servicecontracts\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\servicecontracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\servicecontracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositorycontracts\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositorycontracts\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositorycontracts\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositorycontracts\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\helpers\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\helpers\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\services\\estateagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\services\\estateagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\esateapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6691CA61-6CB2-444C-900D-B99925372BE0}|EsateApplication\\EsateApplication.csproj|solutionrelative:esateapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\helpers\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\helpers\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositorycontracts\\iestateagentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositorycontracts\\iestateagentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositorycontracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositorycontracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\servicecontracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\servicecontracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\servicecontracts\\iestateagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\servicecontracts\\iestateagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositorycontracts\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositorycontracts\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\servicecontracts\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\servicecontracts\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\servicecontracts\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\servicecontracts\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16968039-C2A9-4068-A067-923FA8EC0EA4}|DTO\\DTO.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16968039-C2A9-4068-A067-923FA8EC0EA4}|DTO\\DTO.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\services\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\services\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\business\\servicecontracts\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24601ADE-EC2C-4CB6-86F4-79CD97F5D1FC}|Business\\Business.csproj|solutionrelative:business\\servicecontracts\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositorycontracts\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositorycontracts\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\esateapplication\\data\\repositories\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AEAECAA-E957-4846-B8B7-364142F8CFA4}|Data\\Data.csproj|solutionrelative:data\\repositories\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\UserMain.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\UserMain.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\UserMain.cs [Design]",
+              "RelativeToolTip": "EsateApplication\\UserMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T16:08:57.905Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserMain.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\UserMain.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\UserMain.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\UserMain.cs",
+              "RelativeToolTip": "EsateApplication\\UserMain.cs",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAzwPUAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T16:23:30.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmlakciMain.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\EmlakciMain.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\EmlakciMain.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\EmlakciMain.cs",
+              "RelativeToolTip": "EsateApplication\\EmlakciMain.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAYwIgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T17:48:32.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmlakciMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\EmlakciMain.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\EmlakciMain.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\EmlakciMain.cs [Design]",
+              "RelativeToolTip": "EsateApplication\\EmlakciMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:53:55.621Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\Form1.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\Form1.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\Form1.cs [Design]",
+              "RelativeToolTip": "EsateApplication\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:19:21.896Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\Form1.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\Form1.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\Form1.cs",
+              "RelativeToolTip": "EsateApplication\\Form1.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAwGsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:19:32.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmlakDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\EmlakDetail.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\EmlakDetail.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\EmlakDetail.cs [Design]",
+              "RelativeToolTip": "EsateApplication\\EmlakDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:54:34.88Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmlakDetail.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\EmlakDetail.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\EmlakDetail.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\EmlakDetail.cs",
+              "RelativeToolTip": "EsateApplication\\EmlakDetail.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAuwF4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T19:13:24.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateNewEmlak.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\CreateNewEmlak.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\CreateNewEmlak.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\CreateNewEmlak.cs [Design]",
+              "RelativeToolTip": "EsateApplication\\CreateNewEmlak.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:54:48.332Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\SignUp.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\SignUp.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\SignUp.cs",
+              "RelativeToolTip": "EsateApplication\\SignUp.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAlwGIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:18:14.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateNewEmlak.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\CreateNewEmlak.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\CreateNewEmlak.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\CreateNewEmlak.cs",
+              "RelativeToolTip": "EsateApplication\\CreateNewEmlak.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:40:59.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\Program.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\Program.cs",
+              "RelativeToolTip": "EsateApplication\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAcwDoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:59:29.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EstateAgentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\EstateAgentRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\EstateAgentRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\EstateAgentRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\EstateAgentRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwDkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T12:25:20.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmlakciMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\EmlakciMain.Designer.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\EmlakciMain.Designer.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\EmlakciMain.Designer.cs",
+              "RelativeToolTip": "EsateApplication\\EmlakciMain.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwEMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T17:51:41.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EstateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\EstateRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\EstateRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\EstateRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\EstateRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T11:45:27.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PropertyModel.Context.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\PropertyModel.Context.cs",
+              "RelativeDocumentMoniker": "Data\\PropertyModel.Context.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\PropertyModel.Context.cs",
+              "RelativeToolTip": "Data\\PropertyModel.Context.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T16:21:50.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEstateService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IEstateService.cs",
+              "RelativeDocumentMoniker": "Business\\ServiceContracts\\IEstateService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IEstateService.cs",
+              "RelativeToolTip": "Business\\ServiceContracts\\IEstateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:00:41.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Data\\RepositoryContracts\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IBaseRepository.cs",
+              "RelativeToolTip": "Data\\RepositoryContracts\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:33:02.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EstateService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\EstateService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\EstateService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\EstateService.cs",
+              "RelativeToolTip": "Business\\Services\\EstateService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAD4vxUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:34:18.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IEstateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IEstateRepository.cs",
+              "RelativeDocumentMoniker": "Data\\RepositoryContracts\\IEstateRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IEstateRepository.cs",
+              "RelativeToolTip": "Data\\RepositoryContracts\\IEstateRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:46:02.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\RoomRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\RoomRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:45:20.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\App.config",
+              "RelativeDocumentMoniker": "EsateApplication\\App.config",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\App.config",
+              "RelativeToolTip": "EsateApplication\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-27T11:13:00.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Business\\Services\\CategoryService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:50:17.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\RoomService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\RoomService.cs",
+              "RelativeToolTip": "Business\\Services\\RoomService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:51:52.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IRoomService.cs",
+              "RelativeDocumentMoniker": "Business\\ServiceContracts\\IRoomService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IRoomService.cs",
+              "RelativeToolTip": "Business\\ServiceContracts\\IRoomService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:49:45.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.Config",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\App.Config",
+              "RelativeDocumentMoniker": "Data\\App.Config",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\App.Config",
+              "RelativeToolTip": "Data\\App.Config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-28T15:01:12.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Business\\ServiceContracts\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\ICategoryService.cs",
+              "RelativeToolTip": "Business\\ServiceContracts\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:49:14.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwB0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:43:22.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Data\\RepositoryContracts\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\ICategoryRepository.cs",
+              "RelativeToolTip": "Data\\RepositoryContracts\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:42:33.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IRoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IRoomRepository.cs",
+              "RelativeDocumentMoniker": "Data\\RepositoryContracts\\IRoomRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IRoomRepository.cs",
+              "RelativeToolTip": "Data\\RepositoryContracts\\IRoomRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:44:51.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\packages.config",
+              "RelativeDocumentMoniker": "EsateApplication\\packages.config",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\packages.config",
+              "RelativeToolTip": "EsateApplication\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-28T13:59:40.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Helpers\\SessionManager.cs",
+              "RelativeDocumentMoniker": "Business\\Helpers\\SessionManager.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Helpers\\SessionManager.cs",
+              "RelativeToolTip": "Business\\Helpers\\SessionManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:52:49.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SignUp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\SignUp.cs",
+              "RelativeDocumentMoniker": "EsateApplication\\SignUp.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\EsateApplication\\SignUp.cs [Design]",
+              "RelativeToolTip": "EsateApplication\\SignUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:26:18.633Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EstateAgentService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\EstateAgentService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\EstateAgentService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\EstateAgentService.cs",
+              "RelativeToolTip": "Business\\Services\\EstateAgentService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAIA/wC4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:34:32.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Data\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "Data\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:25:22.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\UserService.cs",
+              "RelativeToolTip": "Business\\Services\\UserService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAIA/wDgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:33:22.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuthHelper.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Helpers\\AuthHelper.cs",
+              "RelativeDocumentMoniker": "Business\\Helpers\\AuthHelper.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Helpers\\AuthHelper.cs",
+              "RelativeToolTip": "Business\\Helpers\\AuthHelper.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T12:06:22.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IUserService.cs",
+              "RelativeDocumentMoniker": "Business\\ServiceContracts\\IUserService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IUserService.cs",
+              "RelativeToolTip": "Business\\ServiceContracts\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T12:59:46.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwCoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T11:55:41.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IEstateAgentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IEstateAgentRepository.cs",
+              "RelativeDocumentMoniker": "Data\\RepositoryContracts\\IEstateAgentRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IEstateAgentRepository.cs",
+              "RelativeToolTip": "Data\\RepositoryContracts\\IEstateAgentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T12:51:08.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\RepositoryContracts\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IUserRepository.cs",
+              "RelativeToolTip": "Data\\RepositoryContracts\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:49:10.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IEstateAgentService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IEstateAgentService.cs",
+              "RelativeDocumentMoniker": "Business\\ServiceContracts\\IEstateAgentService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IEstateAgentService.cs",
+              "RelativeToolTip": "Business\\ServiceContracts\\IEstateAgentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:02:13.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "Data\\RepositoryContracts\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IAuthRepository.cs",
+              "RelativeToolTip": "Data\\RepositoryContracts\\IAuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:50:16.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Business\\ServiceContracts\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IAuthService.cs",
+              "RelativeToolTip": "Business\\ServiceContracts\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:00:54.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IBaseService.cs",
+              "RelativeDocumentMoniker": "Business\\ServiceContracts\\IBaseService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IBaseService.cs",
+              "RelativeToolTip": "Business\\ServiceContracts\\IBaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:00:15.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Data\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "Data\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:24:39.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:08:09.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PhotoService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\PhotoService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\PhotoService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\Services\\PhotoService.cs",
+              "RelativeToolTip": "Business\\Services\\PhotoService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:33:37.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IPhotoService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IPhotoService.cs",
+              "RelativeDocumentMoniker": "Business\\ServiceContracts\\IPhotoService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Business\\ServiceContracts\\IPhotoService.cs",
+              "RelativeToolTip": "Business\\ServiceContracts\\IPhotoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:01:53.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IPhotoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IPhotoRepository.cs",
+              "RelativeDocumentMoniker": "Data\\RepositoryContracts\\IPhotoRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\RepositoryContracts\\IPhotoRepository.cs",
+              "RelativeToolTip": "Data\\RepositoryContracts\\IPhotoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:37:10.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PhotoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\PhotoRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\PhotoRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\EsateApplication\\Data\\Repositories\\PhotoRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\PhotoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:54:14.057Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

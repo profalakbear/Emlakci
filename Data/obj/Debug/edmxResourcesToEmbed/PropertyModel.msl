@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PropertyModelStoreContainer" CdmEntityContainer="PropertyEntities">
+    <EntitySetMapping Name="Estates">
+      <EntityTypeMapping TypeName="PropertyModel.Estate">
+        <MappingFragment StoreEntitySet="Estate">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EstateAgentID" ColumnName="EstateAgentID" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="IsSale" ColumnName="IsSale" />
+          <ScalarProperty Name="IsRent" ColumnName="IsRent" />
+          <ScalarProperty Name="M2" ColumnName="M2" />
+          <ScalarProperty Name="EstateCategoryID" ColumnName="EstateCategoryID" />
+          <ScalarProperty Name="Floor" ColumnName="Floor" />
+          <ScalarProperty Name="IsFurnished" ColumnName="IsFurnished" />
+          <ScalarProperty Name="TotalFloor" ColumnName="TotalFloor" />
+          <ScalarProperty Name="RoomID" ColumnName="RoomID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EstateAgents">
+      <EntityTypeMapping TypeName="PropertyModel.EstateAgent">
+        <MappingFragment StoreEntitySet="EstateAgent">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BusinessName" ColumnName="BusinessName" />
+          <ScalarProperty Name="AuthorizedPersonFirstName" ColumnName="AuthorizedPersonFirstName" />
+          <ScalarProperty Name="AuthorizedPersonLastName" ColumnName="AuthorizedPersonLastName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EstateCategories">
+      <EntityTypeMapping TypeName="PropertyModel.EstateCategory">
+        <MappingFragment StoreEntitySet="EstateCategory">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Photos">
+      <EntityTypeMapping TypeName="PropertyModel.Photo">
+        <MappingFragment StoreEntitySet="Photo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="EstateID" ColumnName="EstateID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rooms">
+      <EntityTypeMapping TypeName="PropertyModel.Room">
+        <MappingFragment StoreEntitySet="Room">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="PropertyModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

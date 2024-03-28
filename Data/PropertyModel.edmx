@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PropertyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Estate">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EstateAgentID" Type="int" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="IsSale" Type="bit" Nullable="false" />
+          <Property Name="IsRent" Type="bit" Nullable="false" />
+          <Property Name="M2" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="EstateCategoryID" Type="int" Nullable="false" />
+          <Property Name="Floor" Type="int" Nullable="false" />
+          <Property Name="IsFurnished" Type="bit" Nullable="false" />
+          <Property Name="TotalFloor" Type="int" Nullable="false" />
+          <Property Name="RoomID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EstateAgent">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BusinessName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="AuthorizedPersonFirstName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="AuthorizedPersonLastName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="Phone" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Fax" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Password" Type="varchar" MaxLength="500" />
+          <Property Name="PasswordHash" Type="varbinary(max)" Nullable="false" />
+          <Property Name="PasswordSalt" Type="varbinary(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EstateCategory">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Photo">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="URL" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="EstateID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Room">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Password" Type="varchar" MaxLength="500" />
+          <Property Name="PasswordHash" Type="varbinary(max)" Nullable="false" />
+          <Property Name="PasswordSalt" Type="varbinary(max)" Nullable="false" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Estate__EstateAg__2B3F6F97">
+          <End Role="EstateAgent" Type="Self.EstateAgent" Multiplicity="1" />
+          <End Role="Estate" Type="Self.Estate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EstateAgent">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Estate">
+              <PropertyRef Name="EstateAgentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Estate__EstateCa__2C3393D0">
+          <End Role="EstateCategory" Type="Self.EstateCategory" Multiplicity="1" />
+          <End Role="Estate" Type="Self.Estate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EstateCategory">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Estate">
+              <PropertyRef Name="EstateCategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Estate__RoomID__2D27B809">
+          <End Role="Room" Type="Self.Room" Multiplicity="1" />
+          <End Role="Estate" Type="Self.Estate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Room">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Estate">
+              <PropertyRef Name="RoomID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Photo__EstateID__300424B4">
+          <End Role="Estate" Type="Self.Estate" Multiplicity="1" />
+          <End Role="Photo" Type="Self.Photo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Estate">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Photo">
+              <PropertyRef Name="EstateID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PropertyModelStoreContainer">
+          <EntitySet Name="Estate" EntityType="Self.Estate" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EstateAgent" EntityType="Self.EstateAgent" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EstateCategory" EntityType="Self.EstateCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Photo" EntityType="Self.Photo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Room" EntityType="Self.Room" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Estate__EstateAg__2B3F6F97" Association="Self.FK__Estate__EstateAg__2B3F6F97">
+            <End Role="EstateAgent" EntitySet="EstateAgent" />
+            <End Role="Estate" EntitySet="Estate" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Estate__EstateCa__2C3393D0" Association="Self.FK__Estate__EstateCa__2C3393D0">
+            <End Role="EstateCategory" EntitySet="EstateCategory" />
+            <End Role="Estate" EntitySet="Estate" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Estate__RoomID__2D27B809" Association="Self.FK__Estate__RoomID__2D27B809">
+            <End Role="Room" EntitySet="Room" />
+            <End Role="Estate" EntitySet="Estate" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Photo__EstateID__300424B4" Association="Self.FK__Photo__EstateID__300424B4">
+            <End Role="Estate" EntitySet="Estate" />
+            <End Role="Photo" EntitySet="Photo" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PropertyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Estate">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EstateAgentID" Type="Int32" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="IsSale" Type="Boolean" Nullable="false" />
+          <Property Name="IsRent" Type="Boolean" Nullable="false" />
+          <Property Name="M2" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="EstateCategoryID" Type="Int32" Nullable="false" />
+          <Property Name="Floor" Type="Int32" Nullable="false" />
+          <Property Name="IsFurnished" Type="Boolean" Nullable="false" />
+          <Property Name="TotalFloor" Type="Int32" Nullable="false" />
+          <Property Name="RoomID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="EstateAgent" Relationship="Self.FK__Estate__EstateAg__2B3F6F97" FromRole="Estate" ToRole="EstateAgent" />
+          <NavigationProperty Name="EstateCategory" Relationship="Self.FK__Estate__EstateCa__2C3393D0" FromRole="Estate" ToRole="EstateCategory" />
+          <NavigationProperty Name="Room" Relationship="Self.FK__Estate__RoomID__2D27B809" FromRole="Estate" ToRole="Room" />
+          <NavigationProperty Name="Photos" Relationship="Self.FK__Photo__EstateID__300424B4" FromRole="Estate" ToRole="Photo" />
+        </EntityType>
+        <EntityType Name="EstateAgent">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BusinessName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AuthorizedPersonFirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AuthorizedPersonLastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Fax" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="PasswordHash" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="PasswordSalt" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <NavigationProperty Name="Estates" Relationship="Self.FK__Estate__EstateAg__2B3F6F97" FromRole="EstateAgent" ToRole="Estate" />
+        </EntityType>
+        <EntityType Name="EstateCategory">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Estates" Relationship="Self.FK__Estate__EstateCa__2C3393D0" FromRole="EstateCategory" ToRole="Estate" />
+        </EntityType>
+        <EntityType Name="Photo">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="URL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="EstateID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Estate" Relationship="Self.FK__Photo__EstateID__300424B4" FromRole="Photo" ToRole="Estate" />
+        </EntityType>
+        <EntityType Name="Room">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Estates" Relationship="Self.FK__Estate__RoomID__2D27B809" FromRole="Room" ToRole="Estate" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="PasswordHash" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="PasswordSalt" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Estate__EstateAg__2B3F6F97">
+          <End Role="EstateAgent" Type="Self.EstateAgent" Multiplicity="1" />
+          <End Role="Estate" Type="Self.Estate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EstateAgent">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Estate">
+              <PropertyRef Name="EstateAgentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Estate__EstateCa__2C3393D0">
+          <End Role="EstateCategory" Type="Self.EstateCategory" Multiplicity="1" />
+          <End Role="Estate" Type="Self.Estate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EstateCategory">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Estate">
+              <PropertyRef Name="EstateCategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Estate__RoomID__2D27B809">
+          <End Role="Room" Type="Self.Room" Multiplicity="1" />
+          <End Role="Estate" Type="Self.Estate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Room">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Estate">
+              <PropertyRef Name="RoomID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Photo__EstateID__300424B4">
+          <End Role="Estate" Type="Self.Estate" Multiplicity="1" />
+          <End Role="Photo" Type="Self.Photo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Estate">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Photo">
+              <PropertyRef Name="EstateID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PropertyEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Estates" EntityType="Self.Estate" />
+          <EntitySet Name="EstateAgents" EntityType="Self.EstateAgent" />
+          <EntitySet Name="EstateCategories" EntityType="Self.EstateCategory" />
+          <EntitySet Name="Photos" EntityType="Self.Photo" />
+          <EntitySet Name="Rooms" EntityType="Self.Room" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <AssociationSet Name="FK__Estate__EstateAg__2B3F6F97" Association="Self.FK__Estate__EstateAg__2B3F6F97">
+            <End Role="EstateAgent" EntitySet="EstateAgents" />
+            <End Role="Estate" EntitySet="Estates" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Estate__EstateCa__2C3393D0" Association="Self.FK__Estate__EstateCa__2C3393D0">
+            <End Role="EstateCategory" EntitySet="EstateCategories" />
+            <End Role="Estate" EntitySet="Estates" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Estate__RoomID__2D27B809" Association="Self.FK__Estate__RoomID__2D27B809">
+            <End Role="Room" EntitySet="Rooms" />
+            <End Role="Estate" EntitySet="Estates" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Photo__EstateID__300424B4" Association="Self.FK__Photo__EstateID__300424B4">
+            <End Role="Estate" EntitySet="Estates" />
+            <End Role="Photo" EntitySet="Photos" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PropertyModelStoreContainer" CdmEntityContainer="PropertyEntities">
+          <EntitySetMapping Name="Estates">
+            <EntityTypeMapping TypeName="PropertyModel.Estate">
+              <MappingFragment StoreEntitySet="Estate">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="EstateAgentID" ColumnName="EstateAgentID" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="IsSale" ColumnName="IsSale" />
+                <ScalarProperty Name="IsRent" ColumnName="IsRent" />
+                <ScalarProperty Name="M2" ColumnName="M2" />
+                <ScalarProperty Name="EstateCategoryID" ColumnName="EstateCategoryID" />
+                <ScalarProperty Name="Floor" ColumnName="Floor" />
+                <ScalarProperty Name="IsFurnished" ColumnName="IsFurnished" />
+                <ScalarProperty Name="TotalFloor" ColumnName="TotalFloor" />
+                <ScalarProperty Name="RoomID" ColumnName="RoomID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EstateAgents">
+            <EntityTypeMapping TypeName="PropertyModel.EstateAgent">
+              <MappingFragment StoreEntitySet="EstateAgent">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BusinessName" ColumnName="BusinessName" />
+                <ScalarProperty Name="AuthorizedPersonFirstName" ColumnName="AuthorizedPersonFirstName" />
+                <ScalarProperty Name="AuthorizedPersonLastName" ColumnName="AuthorizedPersonLastName" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Fax" ColumnName="Fax" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+                <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EstateCategories">
+            <EntityTypeMapping TypeName="PropertyModel.EstateCategory">
+              <MappingFragment StoreEntitySet="EstateCategory">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Photos">
+            <EntityTypeMapping TypeName="PropertyModel.Photo">
+              <MappingFragment StoreEntitySet="Photo">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="EstateID" ColumnName="EstateID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Rooms">
+            <EntityTypeMapping TypeName="PropertyModel.Room">
+              <MappingFragment StoreEntitySet="Room">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="PropertyModel.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+                <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
